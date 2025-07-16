@@ -21,6 +21,8 @@ This project is an intelligent, RAG-based (Retrieval-Augmented Generation) chatb
 ├── requirements.txt    # Python dependencies
 ├── documents/          # Directory to store all input documents
 ├── .env                # Stores API keys and environment configuration
+├── EVALUATION.md
+├── evaluate.py
 ```
 
 ---
@@ -47,7 +49,7 @@ Create a `.env` file in the root directory and add the following:
 ```env
 GROQ_API_KEY=your_groq_api_key
 PINECONE_API_KEY=your_pinecone_api_key
-PINECONE_ENVIRONMENT=your_pinecone_environment
+
 ```
 
 🔑 Get your API keys from:
