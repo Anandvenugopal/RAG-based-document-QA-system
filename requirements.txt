@@ -1,0 +1,10 @@
+langchain
+langchain-community
+unstructured
+unstructured[all-docs]
+langchain-pinecone
+pinecone-client
+sentence-transformers
+ streamlit
+ langchain-groq
+
